@@ -621,3 +621,31 @@ footer a:hover{
 .service-card:nth-child(4){
     transition-delay:0.8s;
 }
+
+/* Hamburger Menu */
+.menu-btn{
+    display:none;
+    font-size:32px;
+    color:#d4af37;
+    cursor:pointer;
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+    .menu-btn{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        width:100%;
+        text-align:center;
+        margin-top:20px;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
