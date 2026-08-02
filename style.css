@@ -1,1 +1,50 @@
+/* SalvaMediaHub Main Design */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0a0f2c;
+    color: white;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 60px;
+    color: #f5c542;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #f5c542;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+li {
+    margin: 15px;
+    font-size: 1.2rem;
+}
+
+body::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background: #f5c542;
+}
