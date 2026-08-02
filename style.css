@@ -1,50 +1,159 @@
-/* SalvaMediaHub Main Design */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
 }
 
-body {
-    background: #0a0f2c;
-    color: white;
-    line-height: 1.6;
+body{
+
+background:#08142d;
+color:white;
+
 }
 
-h1 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 60px;
-    color: #f5c542;
+nav{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:25px 8%;
+
 }
 
-p {
-    text-align: center;
-    font-size: 1.2rem;
+.logo{
+
+color:#D4AF37;
+
+font-size:28px;
+
 }
 
-h2 {
-    text-align: center;
-    margin-top: 40px;
-    color: #f5c542;
+nav ul{
+
+display:flex;
+
+list-style:none;
+
 }
 
-ul {
-    list-style: none;
-    text-align: center;
-    margin-top: 20px;
+nav ul li{
+
+margin-left:30px;
+
 }
 
-li {
-    margin: 15px;
-    font-size: 1.2rem;
+nav ul li a{
+
+color:white;
+
+text-decoration:none;
+
+transition:.4s;
+
 }
 
-body::before {
-    content: "";
-    display: block;
-    height: 5px;
-    background: #f5c542;
+nav ul li a:hover{
+
+color:#D4AF37;
+
+}
+
+.hero{
+
+height:85vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:60px;
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+}
+
+.hero p{
+
+max-width:650px;
+
+font-size:22px;
+
+line-height:1.7;
+
+margin-bottom:40px;
+
+}
+
+.buttons{
+
+display:flex;
+
+gap:20px;
+
+}
+
+.btn{
+
+background:#D4AF37;
+
+padding:15px 35px;
+
+text-decoration:none;
+
+color:#08142d;
+
+font-weight:bold;
+
+border-radius:40px;
+
+transition:.4s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+}
+
+.btn2{
+
+border:2px solid #D4AF37;
+
+padding:15px 35px;
+
+text-decoration:none;
+
+color:white;
+
+border-radius:40px;
+
+transition:.4s;
+
+}
+
+.btn2:hover{
+
+background:#D4AF37;
+
+color:#08142d;
+
 }
