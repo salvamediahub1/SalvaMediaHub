@@ -117,27 +117,19 @@ gap:20px;
 }
 
 .btn{
-
-background:#D4AF37;
-
-padding:15px 35px;
-
+background:linear-gradient(135deg,#D4AF37,#F4D03F);
+padding:16px 38px;
 text-decoration:none;
-
-color:#08142d;
-
-font-weight:bold;
-
-border-radius:40px;
-
-transition:.4s;
-
+color:#08142D;
+font-weight:600;
+border-radius:50px;
+transition:all .35s ease;
+box-shadow:0 10px 25px rgba(212,175,55,.35);
 }
 
 .btn:hover{
-
-transform:translateY(-5px);
-
+transform:translateY(-4px) scale(1.03);
+box-shadow:0 15px 35px rgba(212,175,55,.5);
 }
 
 .btn2{
