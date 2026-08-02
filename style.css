@@ -133,29 +133,22 @@ box-shadow:0 15px 35px rgba(212,175,55,.5);
 }
 
 .btn2{
-
+background:transparent;
 border:2px solid #D4AF37;
-
-padding:15px 35px;
-
+padding:16px 38px;
 text-decoration:none;
-
-color:white;
-
-border-radius:40px;
-
-transition:.4s;
-
+color:#FFFFFF;
+font-weight:600;
+border-radius:50px;
+transition:all .35s ease;
 }
 
 .btn2:hover{
-
 background:#D4AF37;
-
-color:#08142d;
-
+color:#08142D;
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(212,175,55,.35);
 }
-
 .about,
 .services{
 padding:80px 8%;
