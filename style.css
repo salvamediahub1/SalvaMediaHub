@@ -152,9 +152,18 @@ header{
 }
 
 .logo img{
-    width:150px;
+    .logo img{
+    width:90px;
     height:auto;
     display:block;
+}
+
+@media (max-width:768px){
+
+    .logo img{
+        width:90px;
+    }
+
 }
 
 .nav-links{
