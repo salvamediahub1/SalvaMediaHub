@@ -334,7 +334,9 @@ header{
 .service-card:hover{
     transform:translateY(-10px);
     border-color:#D4AF37;
-    box-shadow:0 20px 40px rgba(0,0,0,.30);
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.30),
+        0 0 20px rgba(212,175,55,.18);
 }
 
 .service-card h3{
